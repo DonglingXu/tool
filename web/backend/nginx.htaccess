@@ -1,0 +1,23 @@
+location / {
+    try_files $uri $uri/ /index.php$is_args$args;
+index index.php index.html;
+}
+location /backend {
+    try_files $uri $uri/ /backend/index.php$is_args$args;
+index index.php index.html;
+}
+location /api {
+    try_files $uri $uri/ /api/index.php$is_args$args;
+index index.php index.html;
+}
+location /wechat {
+    try_files $uri $uri/ /wechat/index.php$is_args$args;
+}
+location /oauth2 {
+    try_files $uri $uri/ /oauth2/index.php$is_args$args;
+index index.php index.html;
+}
+location /artuns {
+    try_files $uri $uri/ /artuns/index.php$is_args$args;
+index index.php index.html;
+}
