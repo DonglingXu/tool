@@ -18,7 +18,7 @@ return [
         // 图片
         'images' => [
             'originalName' => false, // 是否保留原名
-            'fullPath' => true, // 是否开启返回完整的文件路径
+            'fullPath' => false, // 是否开启返回完整的文件路径
             'takeOverUrl' => '', // 配置后，接管所有的上传地址
             'drive' => 'local', // 默认本地 可修改 qiniu/oss/cos 上传
             'maxSize' => 1024 * 1024 * 10,// 图片最大上传大小,默认10M

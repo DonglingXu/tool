@@ -28,6 +28,13 @@ return [
             ],
         ],
         [
+            'title' => 'OCR 识别',
+            'route' => 'ocr/index',
+            'icon' => '',
+            'params' => [
+            ],
+        ],
+        [
             'title' => '数据备份',
             'route' => 'data-base/backups',
             'icon' => '',

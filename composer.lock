@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c31383f7a9c2c283e7b57e6ed1801da8",
+    "content-hash": "cf20a8190aa5bc5b5cb67181a856160f",
     "packages": [
         {
             "name": "2amigos/qrcode-library",
@@ -255,16 +255,16 @@
         },
         {
             "name": "bower-asset/yii2-pjax",
-            "version": "v2.0.7",
+            "version": "2.0.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/jquery-pjax.git",
-                "reference": "885fc8c2d36c93a801b6af0ee8ad55d79df97cb1"
+                "url": "git@github.com:yiisoft/jquery-pjax.git",
+                "reference": "aef7b953107264f00234902a3880eb50dafc48be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/885fc8c2d36c93a801b6af0ee8ad55d79df97cb1",
-                "reference": "885fc8c2d36c93a801b6af0ee8ad55d79df97cb1"
+                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/aef7b953107264f00234902a3880eb50dafc48be",
+                "reference": "aef7b953107264f00234902a3880eb50dafc48be"
             },
             "require": {
                 "bower-asset/jquery": ">=1.8"
@@ -4735,16 +4735,16 @@
         },
         {
             "name": "qcloud/cos-sdk-v5",
-            "version": "v2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tencentyun/cos-php-sdk-v5.git",
-                "reference": "4e7e8e1a78159e87c318e5449a1e6f095660cc5b"
+                "reference": "fa6791c0761a35f4d2493eaf31ed326b56cc0a32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tencentyun/cos-php-sdk-v5/zipball/4e7e8e1a78159e87c318e5449a1e6f095660cc5b",
-                "reference": "4e7e8e1a78159e87c318e5449a1e6f095660cc5b",
+                "url": "https://api.github.com/repos/tencentyun/cos-php-sdk-v5/zipball/fa6791c0761a35f4d2493eaf31ed326b56cc0a32",
+                "reference": "fa6791c0761a35f4d2493eaf31ed326b56cc0a32",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4784,7 +4784,7 @@
                 "php",
                 "qcloud"
             ],
-            "time": "2019-11-29T04:14:17+00:00"
+            "time": "2019-12-24T09:54:39+00:00"
         },
         {
             "name": "qiniu/php-sdk",
@@ -6172,6 +6172,56 @@
                 "serialize"
             ],
             "time": "2019-12-01T08:48:26+00:00"
+        },
+        {
+            "name": "tencentcloud/tencentcloud-sdk-php",
+            "version": "3.0.94",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TencentCloud/tencentcloud-sdk-php.git",
+                "reference": "d753c089d5a28de790838f40a986ba9b52473d82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TencentCloud/tencentcloud-sdk-php/zipball/d753c089d5a28de790838f40a986ba9b52473d82",
+                "reference": "d753c089d5a28de790838f40a986ba9b52473d82",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.6.33"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/QcloudApi/QcloudApi.php"
+                ],
+                "psr-4": {
+                    "TencentCloud\\": "./src/TencentCloud"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "coolli",
+                    "email": "tencentcloudapi@tencent.com",
+                    "homepage": "https://cloud.tencent.com/document/sdk/PHP",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TencentCloudApi php sdk",
+            "homepage": "https://github.com/TencentCloud/tencentcloud-sdk-php",
+            "time": "2019-10-11T14:09:40+00:00"
         },
         {
             "name": "tightenco/collect",
@@ -9050,12 +9100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "b847cb1bac7b8bb8576777a31b91806d36bab00f"
+                "reference": "b79d42f5535e6921afa527e77c017647aa1340e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/b847cb1bac7b8bb8576777a31b91806d36bab00f",
-                "reference": "b847cb1bac7b8bb8576777a31b91806d36bab00f",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/b79d42f5535e6921afa527e77c017647aa1340e5",
+                "reference": "b79d42f5535e6921afa527e77c017647aa1340e5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -9065,7 +9115,8 @@
                 ]
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "~3.4.0",
+                "guzzlehttp/guzzle": "~6.5.0",
+                "squizlabs/php_codesniffer": "~3.5.0",
                 "symfony/filesystem": "~4.3.0",
                 "zendframework/zend-code": "~3.3.0"
             },
@@ -9081,7 +9132,7 @@
                 }
             ],
             "description": "IDE help files for Swoole.",
-            "time": "2019-12-06T16:26:48+00:00"
+            "time": "2019-12-24T00:58:47+00:00"
         },
         {
             "name": "symfony/browser-kit",
