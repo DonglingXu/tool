@@ -57,7 +57,9 @@
         "jaeger/querylist": "^4.1",
         "overtrue/wechat": "~4.2.2",
         "mingyoung/dingtalk": "2.0",
-        "tencentcloud/tencentcloud-sdk-php": "3.0.94"
+        "tencentcloud/tencentcloud-sdk-php": "3.0.94",
+        "finecho/logistics": "^3.0",
+        "ext-bcmath": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
