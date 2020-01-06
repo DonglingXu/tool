@@ -35,7 +35,7 @@ class OcrController extends BaseController
                     $strstr .= $item['DetectedText'];
                     $strstr .= "\n";
                 }
-                $strstr .= "#####识别语言: {$data['Language']} #####";
+                $strstr .= "##### 识别语言: {$data['Language']} #####";
             }
             p($strstr);die;
         } catch (\Exception $e) {
